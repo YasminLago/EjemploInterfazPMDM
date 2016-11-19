@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EjercicioInterfaz</string>
+    <string name="action_settings">Settings</string>
+    <string name="sms1">Mensaje 1</string>
+    <string name="sms2">Mensaje 2</string>
+    <string name="sms3">Mensaje 3</string>
+    <string name="send1">Boton 1</string>
+    <string name="send2">Boton 2</string>
+    <string name="send3">Boton 3</string>
+    <string name="send4">Boton 4</string>
+    <string name="send5">Boton 5</string>
+</resources>

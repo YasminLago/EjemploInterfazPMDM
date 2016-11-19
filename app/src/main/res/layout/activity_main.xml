@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="70dp">
+
+
+        <EditText
+            android:id="@+id/mensaje1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="48dp"
+            android:hint="@string/sms1"
+         />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send1"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/mensaje1"
+         />
+
+        <EditText
+            android:id="@+id/mensaje2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn1"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:hint="@string/sms2"
+        />
+
+        <EditText
+            android:id="@+id/mensaje3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_below="@+id/mensaje2"
+            android:layout_alignTop="@id/mensaje2"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:hint="@string/sms3"
+         />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mensaje2"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:text="@string/send2"
+         />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mensaje3"
+            android:layout_below="@+id/btn2"
+            android:layout_alignTop="@id/btn2"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:text="@string/send3"
+          />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn2"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:text="@string/send4"
+         />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn3"
+            android:layout_below="@+id/btn4"
+            android:layout_alignTop="@id/btn4"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:text="@string/send5"
+         />
+</RelativeLayout>
